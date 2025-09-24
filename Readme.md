@@ -90,19 +90,7 @@ Output:
 yaml
 Copy code
 ## ßmp3 created successfully at: morning.mp3
-Project Structure
-pgsql
-Copy code
-Go-NihonVoice/
-├── cmd/                         # CLI entrypoint
-│   └── cmd.go                   # CLI logic and argument parsing
-├── speech/                      # Google Text-to-Speech wrapper
-│   └── speaker.go                # Handles TTS API interaction
-├── main.go                      # Main entrypoint
-├── go.mod                        # Go module file
-├── go.sum                        # Dependency versions
-└── sample-service-account-key.json # Google service account key
-Contributing
+
 Fork the repository.
 
 Create a feature branch: git checkout -b feature-name.
